@@ -9,6 +9,9 @@
 # 8. Site favicons & manifest icons
 # 9. Site navigation
 
+# Added by Diego. "Just following orders, sir"
+remote_theme: daviddarnes/alembic
+
 # 1. Files excluded from Jekyll builds
 exclude:
 - README.md
@@ -34,6 +37,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-remote-theme
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
