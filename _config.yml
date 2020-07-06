@@ -73,7 +73,8 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: /assets/white.jpg
+    #"https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
 defaults:
@@ -87,7 +88,8 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+# logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/icons8-home.svg" # Site logo, also used in jekyll-seo-tag
 description: Descripcion del blog #"Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
 url: "https://diegokaram.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -101,27 +103,39 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+  16: '/assets/logos/icons8-home-16.png'
+  32: '/assets/logos/icons8-home-32.png'
+  96: '/assets/logos/icons8-home-96.png'
+  120: '/assets/logos/icons8-home-120.png'
+  144: '/assets/logos/icons8-home-144.png'
+  180: '/assets/logos/icons8-home-180.png'
+  512: '/assets/logos/icons8-home-512.png'
+  1024: '/assets/logos/icons8-home-1024.png'
+
+
+  # 16: '/assets/logos/logo@16px.png'
+  # 32: '/assets/logos/logo@32px.png'
+  # 96: '/assets/logos/logo@96px.png'
+  # 120: '/assets/logos/logo@120px.png'
+  # 144: '/assets/logos/logo@144px.png'
+  # 180: '/assets/logos/logo@180px.png'
+  # 512: '/assets/logos/logo@512px.png'
+  # 1024: '/assets/logos/logo@1024px.png'
+
+
 
 # 9. Site navigation
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /elements/
 - title: Blog
   url: /blog/
 - title: Categories
   url: /categories/
-- title: Search
-  url: /search/
+#- title: Elements
+#  url: /elements/  
+#- title: Search
+#  url: /search/
 #- title: Fork Alembic
 #  url: https://github.com/daviddarnes/alembic
 
